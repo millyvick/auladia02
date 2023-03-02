@@ -22,28 +22,5 @@ public class MainActivity extends AppCompatActivity {
 
         buttonIrCadastro = findViewById(R.id.buttonHistoria);
 
-        buttonIrCadastro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent in = new Intent(MainActivity.this, .class);
-                startActivity(in);
-            }
-        });
-        Button buttonIrCadastro;
-
-        @Override
-        protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_main);
-
-            buttonIrCadastro = findViewById(R.id.buttonjogo);
-
-            buttonIrCadastro.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent in = new Intent(MainActivity.this, .class);
-                    startActivity(in);
-                }
-            });
     }
-
+}
